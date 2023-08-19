@@ -88,7 +88,7 @@ const concatDeCalzado = (calzadoPreCargado, calzadoCargadoPorElUsuario) => {
     let concatDeCalzado = calzadoPreCargado.concat(calzadoCargadoPorElUsuario);
     
     if (calzadoCargadoPorElUsuario.length > 1) {
-        alert(`Gracias por vender ${calzadoCargadoPorElUsuario.length} zapatillas con nosotros. Ingrese a continuación su email para finalizar su venta.`);
+        alert(`Gracias por vender ${calzadoCargadoPorElUsuario.length} tus zapatillas con nosotros. Ingrese a continuación su email para finalizar su venta.`);
     } else if (calzadoCargadoPorElUsuario.length === 1) {
         alert("Gracias por vender tus zapatillas. Ingrese a continuación su email para finalizar su venta.");
         prompt("Ingrese su email");
